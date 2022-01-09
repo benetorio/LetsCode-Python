@@ -1,3 +1,12 @@
+"""
+  Faça um programa que leia a validade das informações:
+  a. Idade: entre 0 e 150;
+  b. Salário: maior que 0;
+  c. Sexo: M, F ou Outro;
+
+  O programa deve imprimir uma mensagem de erro para cada informação inválida.
+"""
+
 def teste_idade(idade_informada, min, max):
   if (idade_informada<=min or idade_informada>=max):
     print(f'A idade é invalida. Insira valores entre {min} e {max}.\nPor favor, tente novamente.\n')
